@@ -1,0 +1,4 @@
+{
+    "cert": "./src/cert/cert.pem",
+    "privateKey": "./src/cert/key.pem"
+}

@@ -1,0 +1,5 @@
+GET https://localhost:443/fileProcessor
+
+
+### Aqui POST
+POST https://localhost:443/fileProcessor

@@ -1,0 +1,146 @@
+
+*{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #C785C8;
+}
+h1{
+    color: white;
+    padding: .5em;
+}
+
+.container{
+    width: 100%;
+    margin-top:2em;
+}
+
+.container .botons{
+    width: 100%;
+    background-color: lightsalmon;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+}
+
+.container .boton{
+    flex-grow: 1;
+    background-color: lightsalmon;
+    padding: 1em;
+    /* margin-right: 1em; */
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    /*box-shadow: 4px 4px 6px white;*/
+
+    transition: all .6s ease;
+}
+.container .boton:active{
+    box-shadow: -4px -4px 2px white inset;
+}
+
+.container .boton.move{
+    background-color: lightsalmon;
+    color: white;
+}
+
+
+/*.container .boton .inf{
+    height: 10px;
+    background-color: aquamarine;
+    margin-top: 1em;
+}*/
+
+
+.container .subcontainer{
+    height: 90vh;
+    position: relative;
+    background-color: #C785C8;
+    overflow: hidden;
+    justify-content: center;
+
+}
+
+.subcontainer .content{
+    padding: 20px;
+    background-color: lightseagreen;
+    margin: 1em;
+    width: 94.6%;
+    text-align: justify;
+    /*width: 1198px;*/
+    
+
+    position: absolute;
+    opacity: 0;
+
+    transform: translateX(50%);
+    transition: all .6s ease;
+}
+.subcontainer .content h2{
+    text-align: start;
+    font-size: 20px;
+}
+.subcontainer .content h3{
+    text-align: start;
+    font-size: 20px;
+}
+.subcontainer .text{
+    font-size: 18px;
+    font-style: italic;
+}
+.subcontainer .sub{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.subcontainer .content.move{
+    opacity: 1;
+    color: white; 
+    transform: translateX(0%);
+}
+
+.botons .move-line{
+    position:absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    /*width: 206px;*/
+    width: 34.1%;
+    height: 5px;
+    border-radius: 30px;
+
+    transition: all .4s ease-in-out;
+}
+
+.Imagen{
+    margin-top: 1em;
+}
+/*
+.subcontainer .img{
+    display: block;
+    position: relative;
+    float: right;
+    margin: 20px;
+    top: 46px;
+}
+*/
+
+
+a{
+    color: white;
+    font-style: italic;
+    text-decoration: underline;
+}
+

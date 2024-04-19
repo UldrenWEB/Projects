@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color: #111;
+    padding: 1em;
+    gap: 1em;
+    margin: 1em;
+    border-radius: 40px;
+    border: 3px solid rgb(104, 103, 103);
+    transition: all 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container:hover {
+    border: 3px solid #F43F5E;
+    box-shadow: 0 0 10px #F43F5E, 0 0 10px #F43F5E;
+}

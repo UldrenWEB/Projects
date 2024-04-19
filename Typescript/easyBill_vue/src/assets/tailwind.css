@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=DM%20Sans");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import '/node_modules/flowbite-vue/dist/index.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

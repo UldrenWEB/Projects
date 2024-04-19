@@ -1,0 +1,121 @@
+.form {
+    width: 80%;
+    height: 60%;
+    background-color: #DDD6FE;
+    border-radius: 40px;
+    padding: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 0.5em;
+    padding: 0.2em;
+    background-color: #FEF3C7;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 0.4px solid #F43F5E;
+    transition: all 0.5s;
+}
+
+.btn-send {
+    width: 40%;
+    height: 2.1em;
+}
+
+.btn-add-input {
+    width: 12em;
+    height: 2.5em;
+}
+
+.btn:hover {
+    border: 1px solid #F43F5E;
+    box-shadow: inset 2px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn:focus {
+    outline: none;
+    border: none;
+    /* color: wheat; */
+    box-shadow: 0px 2px 3px #BE123C, 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.container-input-file {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+    height: 10em;
+    border-radius: 40px;
+    margin: 1em;
+    border: 3px dashed rgb(104, 103, 103);
+    border-radius: 40px;
+    transition: all 0.7s;
+
+}
+
+.selected-files {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.selected-files::-webkit-scrollbar {
+    width: 0;
+}
+
+.selected-files>p {
+    margin: 0.1em;
+}
+
+
+.container-input-file:hover {
+    border: 3px solid rgb(248, 254, 255);
+    /* background-color: aqua; */
+}
+
+.container-btn {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.file-label {
+    display: block;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 2em;
+}
+
+.file-input {
+    display: none;
+}
+
+.text-input-p-key {
+    position: absolute;
+    font-size: 12px;
+    color: #6B7280;
+    top: 56%;
+
+}
+
+.label-selected-files {
+    margin-top: 1em;
+}

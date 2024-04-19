@@ -1,0 +1,45 @@
+# Carpeta de salida de compilación
+bin/
+obj/
+
+# Archivos de configuración de Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Archivos de respaldo
+*~
+*.bak
+
+# Archivos de registro
+*.log
+
+# Archivos de caché y análisis
+*.cache
+*.swp
+*.swo
+*.sln.ide
+
+# Archivos de prueba
+TestResults/
+
+# Carpeta de paquetes NuGet
+packages/
+
+# Archivos de configuración local
+*.local
+*.config.user
+
+# Archivos de análisis de código
+*.opendb
+*.sln.ide-shm
+*.sln.ide-wal
+
+# Archivos de análisis de código de Visual Studio
+.vsconfig
+
+# Archivos de análisis de código de Roslyn
+*.editorconfig
+*.ruleset
+*.DotSettings
